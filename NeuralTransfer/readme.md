@@ -10,10 +10,10 @@
 样例展示：
 
 内容图像：
-![内容图像](QmF0Y2hfMzhfMjAxMkYtNjItMTU2LTUzX2ltZ18yMDI0MDcwNTExMDkzNTE5Mg==.jpg "Content Image")
+![内容图像](img1.jpg "Content Image")
 
 风格图像：
-![风格图像](QmF0Y2hfMzhfNjAwMk0tNDktMTY1LTcwX2ltZ19tMF9mcmFtZTA=.png "Style Image")
+![风格图像](img2.png "Style Image")
 
 生成结果：
 ![生成图像](output.png "Result")
