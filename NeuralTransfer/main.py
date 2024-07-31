@@ -31,8 +31,8 @@ def image_loader(image_name):
     return image.to(device, torch.float)
 
 
-style_img = image_loader("/media/libinWorkSpace/styleTransfer/NeuralTransfer/QmF0Y2hfMzhfNjAwMk0tNDktMTY1LTcwX2ltZ19tMF9mcmFtZTA=.png")
-content_img = image_loader("/media/libinWorkSpace/styleTransfer/NeuralTransfer/QmF0Y2hfMzhfMjAxMkYtNjItMTU2LTUzX2ltZ18yMDI0MDcwNTExMDkzNTE5Mg==.jpg")
+style_img = image_loader("./QmF0Y2hfMzhfNjAwMk0tNDktMTY1LTcwX2ltZ19tMF9mcmFtZTA=.png")
+content_img = image_loader("./QmF0Y2hfMzhfMjAxMkYtNjItMTU2LTUzX2ltZ18yMDI0MDcwNTExMDkzNTE5Mg==.jpg")
 
 assert style_img.size() == content_img.size(), \
     "we need to import style and content images of the same size"
